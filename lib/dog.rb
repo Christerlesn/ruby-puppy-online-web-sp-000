@@ -1,5 +1,5 @@
 class Dog
-attr_accessor :name
+attr_accessor :name, :save
 
 @@all = []
 
@@ -20,14 +20,6 @@ def self.print_all
 @@all.each do |name|
   print name
 end
-end
-
-def save=(save)
-  @save = save
-end
-
-def save
-  @save
 end
 
 
