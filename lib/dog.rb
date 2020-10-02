@@ -31,7 +31,7 @@ def save
   @@all << @save
 end
 
-def 
+def
 
 
 end
