@@ -20,7 +20,14 @@ def self.print_all
 @@all.each do |name|
   print name
 end
+end
 
+def save=(save)
+  @save = save
+end
+
+def save
+  @save
 end
 
 
