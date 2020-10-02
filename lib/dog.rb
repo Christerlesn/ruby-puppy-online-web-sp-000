@@ -16,8 +16,8 @@ def self.clear_all
 end
 
 def self.print_all
-print @@all
-#puts @@all
+#print @@all
+puts @@all
 end
 
 
