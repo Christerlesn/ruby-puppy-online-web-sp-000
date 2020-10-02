@@ -18,7 +18,7 @@ end
 
 def self.print_all
 print @@all.name
-puts @@all.name
+#puts @@all.name
 end
 
 
